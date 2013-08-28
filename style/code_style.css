@@ -1,0 +1,88 @@
+
+#sudeep-code-content {
+	width: 85%;
+	display: inline;
+	float: left;
+	margin-left: -10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;	
+}
+
+#sudeep-code-sidebar {
+	width: 15%;
+	display: inline;
+	float: left;
+}
+
+#sudeep-code-sidebar ul {
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+#sudeep-code-sidebar ul li {
+	list-style: none;
+	background: #FFFFFF;
+	height: 20px;
+	font-family: Ariel, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+	padding-left: 30px;
+	margin-left: -40px;
+}
+
+#sudeep-code-sidebar ul li a,
+#sudeep-code-sidebar ul li a:visited,
+#sudeep-code-sidebar ul li a:active,
+#sudeep-code-sidebar ul li a:hover {
+	text-decoration: none;
+	color: #777777;
+}
+
+
+#iphone-app-title {
+	margin: 10px;
+	background: #EEEEEE;
+	height: 120px;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.iphone-app-text {
+	margin: 20px;
+	font-family: Ariel, Helvetica, sans-serif;
+	color: #555555;
+}
+
+.iphone-app-text a {
+	color: #444444;
+}
+
+.iphone-app-text a:hover {
+	color: #222222;
+	background: #EEEEEE;
+}
+
+#text-column {
+	float: right;
+	width: 73%;
+}
+
+#text-column img {
+	width: 50%;
+	height: 50%;
+}
+
+#image-column {
+	float: right;
+	margin-left: 15px;
+	width: 25%;
+}
+
+#image-column img {
+	width: 100%;
+	height: 100%;
+}

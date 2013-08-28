@@ -1,0 +1,194 @@
+
+/*
+ * Main sections of the page
+ */
+.header {
+	display: block;
+	float: left;
+	width: 1200px;
+	height: 150px;
+	background-color: #E0E0E0;
+}
+
+.contents {
+	display: block;
+	float: left;
+	width: 1200px;
+}
+
+.sidebar {
+	display: inline;
+	float: left;
+	width: 185px;		
+}
+
+#main {
+	display: inline;
+	float: left;
+	width: 970px;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+/*
+ * List in header
+ */
+
+.header ul {
+	margin-left: 0px;
+	padding-left: 10px;	
+}
+
+.header ul li {
+	list-style: none;
+}
+
+.header h1 {
+	font-size: 350%;
+	color: #202020;
+	font-family: cursive;
+	float: left;
+	padding-left: 55px;
+	width: 480px;
+	margin-top: 15px;	
+}
+
+/*
+ * Images in title menu
+ */
+img.title-image {
+	display: block;
+	float: left;	
+	height: 120px;
+	width: 150px;
+	padding-left: 3px;
+}
+
+/*
+ * Picture image
+ */
+img.thumbnail_landscape {
+	width: 270px;
+	height: 180px;
+	margin-top: 10px;
+	margin-right: 20px;
+	border-style: none;
+}
+
+img.thumbnail_portrait {
+	width: 180px;
+	height: 270px;
+	margin-top: 10px;
+	margin-right: 20px;
+	border-style: none;
+	padding-left: 40px;
+}
+
+/*
+ * Sidebar
+ */
+ul#menu {
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-top: 5px;
+	paddng-top: 0px;	
+}
+
+ul#menu li {
+	font-family: Geneva;
+	font-size: large;
+	font-weight: bold;
+	margin-bottom: 5px;
+	list-style: none;
+	border-bottom: solid;
+	border-bottom-color: #656565;
+	border-left: groove;	
+	border-left-color: #656565;
+}
+
+ul#menu li a,
+ul#menu li a:link,
+ul#menu li a:visited {
+	display: block;
+	color: #202020;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+ul#menu li a:focus,
+ul#menu li a:hover {
+	font-weight: bold;
+	background-color: #CCCCCC;	
+}
+
+
+/*
+ * Main body
+ */
+
+html {
+	width: 80%;
+	height: 100%;
+}
+body {	
+	color: #707070;
+	font-family: Geneva;
+	margin-left: 40px;
+	height: 100%;
+}
+
+
+p:first-letter {
+	margin-left: 20px;
+}
+
+.greetings {
+	color: #606060;
+	font-family: Geneva;
+	font-size: large;
+	font-weight: bold;
+}
+
+.page_title {
+	color: #606060;
+	font-family: Geneva;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#main a, 
+#main a:link, 
+#main a:visited {
+	color: #202020;
+	font-family: Geneva; 
+}
+
+#main a:focus,
+#main a:hover {
+	background-color: #DDDDDD;
+}
+
+#main li {
+	margin-bottom: 10px;	
+}
+
+.emphasize {
+	color: #404040;	
+	font-style: italic;
+}
+
+.videos {
+	display: block;
+	float: left;
+	padding: 10px 10px 10px 10px;
+}
+
+object.video {
+	display: block;
+	width: 500px;
+	height:350px;
+	margin: 30px;
+}
+
+
