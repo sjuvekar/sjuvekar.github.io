@@ -4,6 +4,38 @@
  * @param section
  * Loads a page in a div
  */
+$(document).ready(function() {
+	$("#main").load("main.html")
+});
+
+$("#home").click( function() {
+	$("#main").load("main.html")
+});
+
+$("#research").click( function() {
+	$("#main").load("research.html")
+});
+
+$("#paintings").click( function() {
+	$("#main").load("painting.html")
+});
+
+$("#music").click( function() {
+	$("#main").load("music.html")
+});
+
+$("#geek").click( function() {
+	$("#main").load("geek.html")
+});
+
+$("#reading").click( function() {
+	$("#main").load("reading.html")
+});
+
+$("#contact").click( function() {
+	$("#main").load("contact.html")
+});
+
 function loadPage(page, section) {
 	var req;
 	if (window.XMLHttpRequest) // Object of the current windows
