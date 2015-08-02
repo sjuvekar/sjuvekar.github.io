@@ -41,9 +41,7 @@
           <li>
             <a href="#" id="research">Work/Research</a>
           </li>
-          <!-- <li>
-            <a href="code/index.html" target="none">Code</a>
-          </li> -->
+          
           <li>
             <a href="#" id="paintings">Paintings</a>
           </li>
@@ -70,18 +68,46 @@
       <div id="main">        
       </div>
 
+      <div class="contents">
+    	<div id="an-infeed" class="header" style="border: 1px solid black"></div>  
+      </div> 
     </div>
+    	
+	  
+    <!-- Begin ADSNATIVE Code -->
+    <!--<script type="text/javascript">
+	var _AdsNativeOpts = {
+	    blockAdLoad: true
+	};
+    </script>
+    <script type="text/javascript" src="http://static.adsnative.com/static/js/render.v1.js"></script>-->
     
-    <div class="contents" style="border: 1px solid black">
-        <!-- Begin ADSNATIVE Code -->
-        <script type="text/javascript">
-           var _AdsNativeOpts = {
-                apiKey: 'KhVSjS_gskK3u73HGs3LqMX6n3jTros7k7V4nuEy'
-           };
-        </script>
-        <script type="text/javascript" src="//static.adsnative.com/static/js/render.v1.js"></script>
-        <!-- End ADSNATIVE Code -->
-    </div>
-						
+    <!-- End ADSNATIVE Code -->
+    <!--<script type="text/javascript">
+    var infeed_placement = new AdsNative('KhVSjS_gskK3u73HGs3LqMX6n3jTros7k7V4nuEy', []);
+    infeed_placement.fetchAd(function(status){
+      if(status){
+         $(document).ready(function() {
+             console.log(infeed_placement);
+	     var didDisplay = true //infeed_placement.displayAd('an-infeed');
+	     
+	     var ad = infeed_placement.placementProcessor.content.ad;
+	     $("#an-infeed").append("<ul><li><img class='title-image' src='" + ad.imageSrc + "'></li></ul>");
+	     $("#an-infeed").append("<h1>" + ad.title + "</h1>");
+	     $("#an-infeed").append("<h2 style>" + ad.summary + "</h2>");
+	     var an_link = $('<a/>').attr('href', ad.url).attr('target', ad.target);
+	     $("#an-infeed").wrap(an_link);
+	     
+	     if(!didDisplay)
+		console.log('Ad could not be displayed. Most likely due to invalid element ID or double rendering of ad.');
+	     else
+	        console.log("Displayed ad");
+	     
+	        
+         });
+       }   
+    });
+    </script>-->
+    
   </body>
 </html>

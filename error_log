@@ -1,0 +1,9 @@
+[10-Mar-2014 18:14:30 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/as9baju6/public_html/search_old.php on line 46
+[19-Mar-2014 13:19:05 America/Chicago] PHP Warning:  curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set in /home/as9baju6/php/Net/Curl.php on line 615
+[19-Mar-2014 13:19:11 America/Chicago] Cache hit: http://www.glassdoor.com/GD/Job/jobs.htm?sc.keyword=google
+[19-Mar-2014 13:19:36 America/Chicago] PHP Warning:  curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set in /home/as9baju6/php/Net/Curl.php on line 615
+[19-Mar-2014 13:19:50 America/Chicago] PHP Warning:  curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set in /home/as9baju6/php/Net/Curl.php on line 615
+[19-Mar-2014 13:20:31 America/Chicago] PHP Warning:  curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set in /home/as9baju6/php/Net/Curl.php on line 615
+[19-Mar-2014 13:20:31 America/Chicago] PHP Warning:  json_encode(): type is unsupported, encoded as null in /home/as9baju6/public_html/SudeepSearch.php on line 56
+[19-Mar-2014 13:20:31 America/Chicago] PHP Warning:  json_encode(): type is unsupported, encoded as null in /home/as9baju6/public_html/SudeepSearch.php on line 56
+[19-Mar-2014 13:21:01 America/Chicago] Cache hit: 
