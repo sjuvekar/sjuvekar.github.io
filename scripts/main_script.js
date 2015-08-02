@@ -4,10 +4,10 @@
  * @param section
  * Loads a page in a div
  */
+ 
 $(document).ready(function() {
-	$("#main").load("main.html")
-});
-
+	$("#main").load("main.html");
+	
 $("#home").click( function() {
 	$("#main").load("main.html")
 });
@@ -35,6 +35,22 @@ $("#reading").click( function() {
 $("#contact").click( function() {
 	$("#main").load("contact.html")
 });
+
+});
+
+function loadAds() {
+    var infeed_placement = new AdsNative('KhVSjS_gskK3u73HGs3LqMX6n3jTros7k7V4nuEy');
+    infeed_placement.fetchAd(function(status){
+      if(status){
+	     setTimeout (function() {didDisplay = infeed_placement.displayAd('an-infeed');}, 10);
+	     if(!didDisplay)
+		console.log('Ad could not be displayed. Most likely due to invalid element ID or double rendering of ad.');
+	     else
+	        console.log("Displayed ad");
+	        
+      }   
+    });
+}
 
 function loadPage(page, section) {
 	var req;

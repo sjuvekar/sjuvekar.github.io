@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="images/sudeep.jpg">
+    <link rel="stylesheet" type="text/css" href="style/photoblog_style.css" title="Default">
+    <script type="text/javascript" src="scripts/main_script.js"></script>
+    <title>Sudeep's Photoblog</title>
+  </head>
+  
+  <body>
+  	<div id="header">
+  		<h1> Sudeep's Photoblog!</h1>
+  	</div>
+	
+	 <div id ="contents">
+  		<div id="sidebar">
+  			<ul>
+  				<li><a href="#" onclick="loadPage('landscapes.html', 'main')">Landscapes</a></li>
+				<li><a href="#" onclick="loadPage('nature.html', 'main')">Nature</a></li>
+				<li><a href="#" onclick="loadPage('moments.html', 'main')">People/Moments</a></li>
+				<li class="other"><a href="gear.html">My Gear</a></li>
+  			</ul>
+  		</div>
+  	</div>
+  </body>
+  
+</html>
