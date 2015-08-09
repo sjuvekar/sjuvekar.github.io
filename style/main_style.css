@@ -66,7 +66,6 @@ img.thumbnail_portrait {
     position: fixed;
     left: 250px;
     width: 250px;
-    height: 100%;
     margin-left: -250px;
     padding-left: 40px;
     overflow-y: auto;
@@ -84,7 +83,7 @@ img.thumbnail_portrait {
     top: 0;
     width: 250px;
     margin: 0;
-    padding: 0;
+	padding: 0;
     list-style: none;
 }
 
@@ -190,9 +189,9 @@ object.video {
     }
 
     #sidebar-wrapper {
+    	padding-left: 10px;
     	display: block;
     	position: relative;
-    	margin-bottom: -250px;
     }
 
 	#wrapper {
@@ -203,5 +202,6 @@ object.video {
 		display: block;
 		width: 200px;
 		height:160px;
+		margin-left: -10px;
 	}
 }
