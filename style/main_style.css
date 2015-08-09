@@ -183,31 +183,25 @@ object.video {
 
 @media(max-width:768px) {
 
-    #sidebar-wrapper {
-        width: 200px;
+    #main {
+    	display: block;
+    	position: absolute;
+    	float: left;
     }
 
-    #wrapper {
-    	padding-left: 200px;
-    	width: 280px;
+    #sidebar-wrapper {
+    	display: block;
+    	position: relative;
+    	margin-bottom: -250px;
     }
+
+	#wrapper {
+	    padding-left: 0px;
+	}
 
     object.video {
 		display: block;
 		width: 200px;
 		height:160px;
 	}
-}
-
-@media(max-width:480px) {
-
-    #sidebar-wrapper {
-        width: 160px;
-        padding-left: 0px;
-    }
-
-    #wrapper {
-    	padding-left: 130px;
-    	width: 160px;
-    }
 }
