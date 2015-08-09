@@ -26,38 +26,9 @@
 	float: left;
 	padding-left: 40px;
 	padding-top: 40px;
+	padding-top: 40px;
 	width: 100%;
     position: absolute;
-}
-
-/*
- * List in header
- */
-#header ul {
-	margin-left: 0px;
-	padding-left: 10px;	
-}
-
-#header ul li {
-	list-style: none;
-}
-
-#header h1 {
-	font-size: 300%;
-	color: #202020;
-	font-family: Tahoma;
-	float: left;
-	margin-top: 15px;
-	margin-left: 10px;	
-}
-
-#header h2 {
-	color: #909090;
-	font-family: Tahoma;
-	float: left;
-	padding-left: 205px;
-	width: 480px;
-	margin-top: -30px;
 }
 
 /*
@@ -244,9 +215,4 @@ object.video {
         position: relative;
         margin-right: 0;
     }
-
-    #header.toggle ul {
-    	width: 0;
-    }
-
 }
