@@ -81,9 +81,9 @@ img.thumbnail_portrait {
 
  ul#menu {
     top: 0;
-    width: 250px;
+    width: 210px;
     margin: 0;
-	padding: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -150,6 +150,7 @@ p:first-letter {
 #main a:link, 
 #main a:visited {
 	color: #202020;
+	text-decoration: underline;
 	font-family: Helvetica, sans-serif; 
 }
 
@@ -203,5 +204,11 @@ object.video {
 		width: 200px;
 		height:160px;
 		margin-left: -10px;
+	}
+
+	.navbar-custom {
+		margin-left: -40px;
+		padding-left: 10px;
+		margin-right: 0;
 	}
 }
